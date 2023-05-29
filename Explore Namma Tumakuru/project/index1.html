@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tumkur City Festivals</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Tumkur Smart City</h1>
+    <p>Click on the image to know more about near by places</p>
+    <div id="map" onclick="showPopup()">
+      <img src="map.jpeg" alt="Tumkur City Map">
+    </div>
+    <div id="popup" class="hidden">
+      <h2>Near by Places</h2>
+      <ul>
+        <li>Ramadevra Betta(apx 4.1km)</li>
+        <li>DD Hills(apx 6.5km)</li>
+        <li>Goravanahalli(apx 23.2km)</li>
+      </ul>
+      <h2>Near By Hotels</h2>
+      <ul>
+      <li>Sudha Hotel</li>
+      <li>Viva Resort</li>
+      <li>Country Club</li>
+      </ul>
+      <div><a href="https://www.weatheronline.in/India/Tumkur.htm">CLIMATE</a></div><br>
+      <button onclick="hidePopup()">Close</button>
+     
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
